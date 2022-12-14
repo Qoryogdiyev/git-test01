@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/inter-v12-latin-regular.eot");
+  src: url("./fonts/inter-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    url("./fonts/inter-v12-latin-regular.woff") format("woff"),
+    url("./fonts/inter-v12-latin-regular.ttf") format("truetype"),
+    url("./fonts/inter-v12-latin-regular.svg#Inter") format("svg");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/inter-v12-latin-500.eot");
+  src: url("./fonts/inter-v12-latin-500.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/inter-v12-latin-500.woff2") format("woff2"),
+    url("./fonts/inter-v12-latin-500.woff") format("woff"),
+    url("./fonts/inter-v12-latin-500.ttf") format("truetype"),
+    url("./fonts/inter-v12-latin-500.svg#Inter") format("svg");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/inter-v12-latin-600.eot");
+  src: url("./fonts/inter-v12-latin-600.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/inter-v12-latin-600.woff2") format("woff2"),
+    url("./fonts/inter-v12-latin-600.woff") format("woff"),
+    url("./fonts/inter-v12-latin-600.ttf") format("truetype"),
+    url("./fonts/inter-v12-latin-600.svg#Inter") format("svg");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/inter-v12-latin-700.eot");
+  src: url("./fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/inter-v12-latin-700.woff2") format("woff2"),
+    url("./fonts/inter-v12-latin-700.woff") format("woff"),
+    url("./fonts/inter-v12-latin-700.ttf") format("truetype"),
+    url("./fonts/inter-v12-latin-700.svg#Inter") format("svg");
+}
+@font-face {
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/schoolbell-v18-latin-regular.eot");
+  src: url("./fonts/schoolbell-v18-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/schoolbell-v18-latin-regular.woff2") format("woff2"),
+    url("./fonts/schoolbell-v18-latin-regular.woff") format("woff"),
+    url("./fonts/schoolbell-v18-latin-regular.ttf") format("truetype"),
+    url("./fonts/schoolbell-v18-latin-regular.svg#Schoolbell") format("svg");
+}
+body {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.bg {
+  background-color: #042e3c;
+  position: relative;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.link-logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-li {
+  list-style-type: none;
+}
+.header-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #a1b5bb;
+}
+.header-link2 {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #145e76;
+  padding: 14px 35px;
+  border-radius: 25px;
+}
+.work {
+  display: flex;
+  align-items: center;
+}
+.work-link1 {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  background-color: #094556;
+  border-radius: 30px;
+  padding: 16px 30px;
+  margin-bottom: 40px;
+}
+.work-title {
+  width: 537px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.work-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #849499;
+  margin-bottom: 50px;
+}
+.work-link2 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #ffa63a;
+  border-radius: 25px;
+  padding: 16px 35px;
+  margin-right: 50px;
+}
+.work-link3 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #b6cdd5;
+}
+.work-img {
+  margin-bottom: 250px;
+}
+.statistika {
+  display: inline-block;
+  position: absolute;
+  top: 1050px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 190px;
+  border-radius: 30px;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  margin-bottom: 200px;
+}
+.statistika-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #265a6a;
+  margin-top: 78px;
+  margin-bottom: 69px;
+}
+.statistika-one {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.statistika-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistika-li1 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 30px;
+}
+.statistika-li2 {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 78px;
+}
