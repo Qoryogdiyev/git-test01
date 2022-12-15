@@ -378,6 +378,7 @@ body {
 .portfolio-img {
   margin-bottom: 40px;
   border: 1px solid #000;
+  object-fit: contain;
 }
 .portfolio-minititle {
   font-weight: 600;
